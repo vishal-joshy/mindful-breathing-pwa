@@ -1,10 +1,12 @@
 import React from "react"
 import Layout from "../../components/Layout"
+import boxVideo from "../../assets/videos/box-vid.mp4"
+import EmbedVideo from "../../components/EmbedVideo"
 
 function index() {
     return (
         <Layout>
-            <div>Box Breathing</div>
+            <EmbedVideo video={boxVideo} />
         </Layout>
     )
 }
